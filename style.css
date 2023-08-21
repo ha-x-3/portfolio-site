@@ -258,6 +258,7 @@ nav li:hover {
 
 figcaption {
   font-size: smaller;
+  padding: 10px 10px 15px 10px;
 }
 
 .btn {
