@@ -228,7 +228,6 @@ nav li:hover {
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
-  width: 100vw;
 }
 
 .skillsDiv {
