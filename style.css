@@ -126,6 +126,7 @@ img {
   padding: 0;
   box-shadow: 0 0 3px 3px var(--color1) inset;
   z-index: 10;
+  overflow: hidden;
 }
 
 nav > ul {
