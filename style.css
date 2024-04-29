@@ -242,8 +242,8 @@ nav li:hover {
 }
 
 .life-skills {
-  margin-top: 40px;
-}
+    margin-top: -70px;
+  }
 
 @media (max-width: 480px) {
   .skillsDiv {
@@ -254,6 +254,10 @@ nav li:hover {
   .skills li {
     padding-left: 20px;
     font-size: 14px;
+  }
+  
+  .life-skills {
+    margin-top: 40px;
   }
 }
 
