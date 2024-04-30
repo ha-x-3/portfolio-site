@@ -393,7 +393,7 @@ figcaption {
 @media (max-width: 480px) {
 
   .contact-section h3 {
-    margin-top: 10px;
+    margin: 10px 0 10px 0;
   }
 
   .contact-details:hover {
