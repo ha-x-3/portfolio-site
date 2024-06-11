@@ -21,6 +21,7 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
   cursor: url(img/blueCursor.png), auto;
+  overscroll-behavior: none;
 }
 
 a:hover, button:hover {
@@ -196,10 +197,11 @@ nav li:hover {
 
 .welcome-section {
   background-image: url(img/blueFlame.png);
-  background-position: center;
+  background-position: top right 40%;
   background-size: contain;
   background-repeat: no-repeat;
   background-color: linear-gradient(100deg, white,  #dadedf);
+  background-attachment: fixed;
   height: 100vh;
   display: flex;
   flex-direction: column;
