@@ -321,9 +321,10 @@ nav li:hover {
 }
 
 .project img {
-  max-width: 100%;
+  max-width: 65%;
   height: auto;
   object-fit: contain;
+  align-self: center;
 }
 
 figcaption {
