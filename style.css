@@ -272,19 +272,19 @@ nav li:hover {
 
 .project-section {
   text-align: center;
-  padding: 5rem;
+  padding: 3em 5em;
   background: linear-gradient(-100deg, white,  var(--color2));
   box-shadow: 0 0 3px 3px var(--color1) inset;
 }
 
 .project-grid {
   display: grid;
-  grid-template-columns: 48% 48%;
-  grid-gap: 25px;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 2rem;
   width: 100%;
   margin: 0 auto 6rem auto;
   background-color: var(--color1);
-  border-radius: 8px 8px;
+  border-radius: 8px;
   padding: 20px 30px;
 }
 
