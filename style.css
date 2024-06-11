@@ -169,6 +169,11 @@ nav li:hover {
     z-index: 10;
   }
 
+  #logo {
+    width: 80%;
+    height: auto;
+  }
+
   nav > ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -225,6 +230,12 @@ nav li:hover {
   background-color: hsla(229, 6%, 64%, 50%);
 }
 
+@media (max-width: 480px) {
+  .welcome-section {
+    background-position: bottom -50px right;
+  }
+}
+
 /* skills section */
 .skills {
   background: linear-gradient(-100deg, white,  var(--color1));
@@ -249,22 +260,44 @@ nav li:hover {
 }
 
 .life-skills {
-    margin-top: -70px;
-  }
+  margin-top: -70px;
+}
+
 
 @media (max-width: 480px) {
+  .skillsDiv h2 {
+    font-size: 0.95em;
+  }
+
   .skillsDiv {
     flex-direction: column;
     padding: 1rem;
   }
 
   .skills li {
-    padding-left: 20px;
+    padding-left: 0;
     font-size: 14px;
   }
   
   .life-skills {
     margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .life-skills ul {
+    margin-left: 50px;
+    padding-left: 70px;
+    padding-right: 20px;
+  }
+
+  .life-skills li {
+    list-style: disc;
+    padding-left: 5px;
+    text-align: left;
+    width: fit-content;
+    margin-left: -50px;
   }
 }
 
