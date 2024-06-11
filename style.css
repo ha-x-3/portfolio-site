@@ -130,6 +130,11 @@ img {
   overflow: hidden;
 }
 
+#logo {
+  max-width: 100%;
+  height: auto;
+}
+
 nav > ul {
   display: flex;
   flex-direction: column;
@@ -316,8 +321,9 @@ nav li:hover {
 }
 
 .project img {
-  max-width: 60%;
-  align-self: center;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 figcaption {
