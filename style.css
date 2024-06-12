@@ -232,7 +232,7 @@ nav li:hover {
 
 @media (max-width: 480px) {
   .welcome-section {
-    background-position: bottom right;
+    background-position: bottom -20px right;
     background-attachment: unset;
   }
 }
